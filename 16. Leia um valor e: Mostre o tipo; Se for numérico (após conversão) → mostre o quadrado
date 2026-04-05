@@ -1,0 +1,9 @@
+# 16. Tipo e quadrado
+valor = input("\n16) Digite um valor: ")
+print("Tipo:", type(valor))
+
+try:
+    num = float(valor)
+    print("Quadrado:", num ** 2)
+except:
+    print("Não é numérico")
