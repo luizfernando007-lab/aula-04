@@ -1,0 +1,10 @@
+# 22
+valor = input("\n22) Digite um valor: ")
+try:
+    num = int(valor)
+    if num > 10:
+        print("Alto")
+    else:
+        print("Baixo")
+except:
+    print("Entrada inválida")
