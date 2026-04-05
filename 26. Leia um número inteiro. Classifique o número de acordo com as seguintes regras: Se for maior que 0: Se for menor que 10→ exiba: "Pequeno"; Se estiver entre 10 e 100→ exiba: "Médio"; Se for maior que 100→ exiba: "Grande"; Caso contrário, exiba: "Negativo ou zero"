@@ -1,0 +1,10 @@
+# 26
+num = int(input("\n26) Digite um número: "))
+if num > 100:
+    print("Grande")
+elif 10 <= num <= 100:
+    print("Médio")
+elif num < 10 and num > 0:
+    print("Pequeno")
+else:
+    print("Negativo ou zero")
