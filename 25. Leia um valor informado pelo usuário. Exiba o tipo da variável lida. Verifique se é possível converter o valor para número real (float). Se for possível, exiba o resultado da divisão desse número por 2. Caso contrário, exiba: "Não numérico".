@@ -1,0 +1,9 @@
+# 25
+valor = input("\n25) Digite um valor: ")
+print("Tipo:", type(valor))
+
+try:
+    num = float(valor)
+    print("Resultado da divisão por 2:", num / 2)
+except:
+    print("Não numérico")
