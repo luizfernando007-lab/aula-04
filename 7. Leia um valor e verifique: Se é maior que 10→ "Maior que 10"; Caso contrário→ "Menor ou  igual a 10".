@@ -1,0 +1,6 @@
+# 7. Maior que 10
+num = int(input("\n7) Digite um número: "))
+if num > 10:
+    print("Maior que 10")
+else:
+    print("Menor ou igual a 10")
