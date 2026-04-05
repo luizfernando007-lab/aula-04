@@ -1,0 +1,3 @@
+# 9. Metade do valor
+num = float(input("\n9) Digite um número: "))
+print("Metade:", num / 2)
