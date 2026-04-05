@@ -1,0 +1,8 @@
+# 27
+n1 = int(input("\n27) Digite o primeiro número: "))
+n2 = int(input("Digite o segundo número: "))
+
+if n1 > 0 and n2 > 0:
+    print("Soma:", n1 + n2)
+else:
+    print("Produto:", n1 * n2)
