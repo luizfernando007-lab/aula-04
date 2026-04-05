@@ -1,0 +1,8 @@
+# 19. Igual ou diferente
+n1 = int(input("\n19) Digite o primeiro número: "))
+n2 = int(input("Digite o segundo número: "))
+if n1 == n2:
+    print("São iguais")
+else:
+    print("São diferentes")
+    print("Diferença:", abs(n1 - n2))
