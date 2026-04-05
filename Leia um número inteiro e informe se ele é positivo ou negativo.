@@ -1,0 +1,6 @@
+# 1. Número positivo ou negativo
+num = int(input("1) Digite um número inteiro: "))
+if num >= 0:
+    print("Positivo")
+else:
+    print("Negativo")
