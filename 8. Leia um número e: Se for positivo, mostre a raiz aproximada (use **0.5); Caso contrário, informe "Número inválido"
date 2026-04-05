@@ -1,0 +1,6 @@
+# 8. Raiz ou inválido
+num = int(input("\n8) Digite um número: "))
+if num > 0:
+    print("Raiz aproximada:", num ** 0.5)
+else:
+    print("Número inválido")
