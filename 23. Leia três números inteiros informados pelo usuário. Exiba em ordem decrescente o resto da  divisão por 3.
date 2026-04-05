@@ -1,0 +1,13 @@
+# 23
+n1 = int(input("\n23) Digite o primeiro número: "))
+n2 = int(input("Digite o segundo número: "))
+n3 = int(input("Digite o terceiro número: "))
+
+r1 = n1 % 3
+r2 = n2 % 3
+r3 = n3 % 3
+
+lista = [r1, r2, r3]
+lista.sort(reverse=True)
+
+print("Restos em ordem decrescente:", lista)
