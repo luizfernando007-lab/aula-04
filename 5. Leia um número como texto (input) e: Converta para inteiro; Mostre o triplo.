@@ -1,0 +1,3 @@
+# 5. Triplo do número
+num = int(input("\n5) Digite um número: "))
+print("Triplo:", num * 3)
