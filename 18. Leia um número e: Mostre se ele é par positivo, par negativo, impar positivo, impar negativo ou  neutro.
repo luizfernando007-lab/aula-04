@@ -1,0 +1,12 @@
+# 18. Classificação completa
+num = int(input("\n18) Digite um número: "))
+if num == 0:
+    print("Neutro")
+elif num % 2 == 0 and num > 0:
+    print("Par positivo")
+elif num % 2 == 0 and num < 0:
+    print("Par negativo")
+elif num % 2 != 0 and num > 0:
+    print("Ímpar positivo")
+else:
+    print("Ímpar negativo")
