@@ -1,0 +1,4 @@
+# 3. Mostrar valor e tipo
+valor = input("\n3) Digite um valor: ")
+print("Valor digitado:", valor)
+print("Tipo:", type(valor))
