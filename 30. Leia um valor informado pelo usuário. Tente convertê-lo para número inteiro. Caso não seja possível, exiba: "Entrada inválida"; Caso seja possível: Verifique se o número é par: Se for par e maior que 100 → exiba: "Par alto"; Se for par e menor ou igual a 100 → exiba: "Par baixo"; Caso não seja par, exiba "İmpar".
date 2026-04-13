@@ -1,13 +1,13 @@
 # 30
-valor = input("\n30) Digite um valor: ")
-try:
-    num = int(valor)
-    if num % 2 == 0:
-        if num > 100:
+v = input()
+if v.isdigit() == True:
+    n = int(v)
+    if n % 2 == 0:
+        if n > 100:
             print("Par alto")
         else:
             print("Par baixo")
     else:
         print("Ímpar")
-except:
+else:
     print("Entrada inválida")
