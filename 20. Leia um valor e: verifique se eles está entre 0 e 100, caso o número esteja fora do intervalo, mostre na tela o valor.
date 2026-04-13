@@ -1,6 +1,6 @@
 # 20. Intervalo 0 a 100
-num = float(input("\n20) Digite um número: "))
-if 0 <= num <= 100:
+n = int(input())
+if n >= 0 and n <= 100:
     print("Dentro do intervalo")
 else:
-    print("Fora do intervalo:", num)
+    print(n)
