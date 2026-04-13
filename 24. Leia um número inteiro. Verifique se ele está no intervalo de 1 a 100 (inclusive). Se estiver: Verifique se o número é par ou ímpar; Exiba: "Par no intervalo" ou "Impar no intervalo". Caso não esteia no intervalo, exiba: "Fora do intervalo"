@@ -1,9 +1,10 @@
 # 24
-num = int(input("\n24) Digite um número: "))
-if 1 <= num <= 100:
-    if num % 2 == 0:
+n = int(input())
+r = n % 2
+if n >= 1 and n <= 100:
+    if r == 0:
         print("Par no intervalo")
     else:
-        print("Impar no intervalo")
+        print("Ímpar no intervalo")
 else:
     print("Fora do intervalo")
